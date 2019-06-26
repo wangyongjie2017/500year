@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>500岁--首页</title>
+
+  <link rel="stylesheet" href="../static/libs/bootstrap-3.3.7-dist/css/bootstrap.min.css?ver=3.3.7">
+  <link rel="stylesheet" href="../static/libs/normalize.css?ver=8.0.0">
+  <link rel="stylesheet" href="../static/libs/video/video-js.min.css">
+  <link rel="stylesheet" href="../static/css/main.css?ver=1522399710">
+</head>
+<body>
+<div class="all-body-container index-body-top text-center">
+  <div class="body-header index">
+    <div class="container container-header clearfix">
+      <div class="row">
+        <div class="company-logo pull-left"></div>
+        <div class="pull-right text-center clearfix">
+          <a href="./index.html" class="pull-left header-chose-btn show">首页</a>
+          <a href="./product1.html" class="pull-left header-chose-btn">肽皇肽后</a>
+          <a href="./product2.html" class="pull-left header-chose-btn">御膳早餐</a>
+          <a href="./product3.html" class="pull-left header-chose-btn">轻创业</a>
+          <a href="./about-us.html" class="pull-left header-chose-btn">联系我们</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img class="main-title" src="../static/img/index/top-title.png?ver=0402" width="70%">
+  <img src="../static/img/index/main-product.png" alt="product" class="main-title-product" width="90%">
+</div>
+<div class="all-body-container container-fluid product-model-one clearfix">
+  <div class="row">
+    <div class="model1-title col-xs-4">
+      <p class="title">了解500岁</p>
+      <a href="javascript:;" class="look-video"><span>观看影片&nbsp;</span><span class="slide-icon"></span></a>
+      <p class="video-text">VIDEO</p>
+    </div>
+    <div class="model1-video col-xs-8 pull-right">
+      <div class="video-src">
+        <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered vjs-16-9" controls preload="none" poster="../static/img/index/video.jpg" data-setup="{}">
+          <source src="../static/img/product1/test.mp4" type='video/mp4' />
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="all-body-container container-fluid product-model-two clearfix">
+  <div class="product2-box row clearfix">
+    <div class="product-left-text col-xs-6">
+      <h2 class="tai-title">肽皇肽后-御膳肽，肽中肽</h2>
+      <p class="under-text">修复细胞，改善细胞，激活细胞</p>
+      <a href="./product1.html" class="get-more-info">+&nbsp;&nbsp;&nbsp;进一步了解</a>
+    </div>
+    <img src="../static/img/index/pro.png" alt="pro" class="col-xs-5 right-pro pull-right">
+  </div>
+</div>
+<div class="all-body-container container-fluid product-model-three clearfix">
+  <div class="product3-box row clearfix">
+    <img src="../static/img/index/pro3.png" alt="pro" class="col-xs-6 col-md-5 left-pro">
+    <div class="product-left-text pull-right col-xs-6 text-right no-margin">
+      <h2 class="tai-title">御膳早餐粉</h2>
+      <p class="under-text">多少人关心你成不成功，我们关心你吃了没吃</p>
+      <a href="./product2.html" class="get-more-info">+&nbsp;&nbsp;&nbsp;进一步了解</a>
+    </div>
+  </div>
+</div>
+<div class="all-body-container container-fluid product-model-four text-center clearfix">
+  <div class="row">
+    <div class="product4-box">即将上市</div>
+    <img src="../static/img/index/pro4.jpg" alt="pro" width="90%" class="product4">
+  </div>
+</div>
+<div class="all-body-container container-fluid product-model-five clearfix">
+  <div class="product5-box row">
+    <div class="product5 col-xs-4 text-right">
+      <img src="../static/img/index/pro5.png?ver=0402" alt="pro" width="80%">
+    </div>
+    <div class="product-explain-css1 col-xs-8">
+      <p class="title">500岁小程序</p>
+      <p class="text">领先行业的小程序电商系统<br>微信搜索小程序：500岁</p>
+    </div>
+  </div>
+</div>
+<div class="all-body-container container-fluid product-model-six text-center clearfix">
+  <div class="row">
+    <div class="product-explain-css1">
+      <p class="title">线下门店，即将开启</p>
+      <p class="text pro-six">苹果级的体验</p>
+    </div>
+    <img src="../static/img/index/pro6.jpg" alt="pro" width="90%" class="product4">
+  </div>
+</div>
+<div class="all-body-container container-fluid product-model-seven text-center clearfix">
+  <div class="row">
+    <div class="product-explain-css1">
+      <p class="title">零成本开启你的500岁事业</p>
+      <p class="text">大健康+社交电商+小程序+新零售=无限可能</p>
+      <a href="./product3.html" class="get-more-info seven">+&nbsp;&nbsp;&nbsp;进一步了解</a>
+    </div>
+    <img src="../static/img/index/pro7.jpg" alt="pro" width="90%" class="product4">
+  </div>
+</div>
+<div class="all-body-container footer text-center">广州五百岁有限公司</div>
+<script src="../static/libs/jquery.min.js"></script>
+<script src="../static/libs/video/video.min.js"></script>
+<script src="../static/libs/video/videojs-ie8.min.js"></script>
+<script>
+  $(function(){
+    var player = videojs('example_video_1',{
+      techOrder : ["html5","flash"],
+      bigPlayButton : true,
+      textTrackDisplay : false,
+      posterImage: false,
+      errorDisplay : false,
+      control : {
+        captionsButton : false,
+        chaptersButton: false,
+        subtitlesButton:false,
+        liveDisplay:false,
+        playbackRateMenuButton:false
+      }
+    });
+  });
+</script>
+</body>
+</html>
